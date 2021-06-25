@@ -1,15 +1,13 @@
-FROM centos:7
+FROM debian:latest
 
-RUN yum update -y
+RUN apt -y update
 
-RUN yum install -y sudo
-
-RUN yum install -y mailx
-
-RUN yum clean all
+RUN apt -y install sudo bsd-mailx
 
 WORKDIR /home/digicelpaxfr
 
 COPY ./digicelpaxfr  /home/digicelpaxfr
 
-CMD /bin/bash
+RUN chmod +x /home/digicelpaxfr/scripts/syniverse_files.sh
+
+ENTRYPOINT ["/home/digicelpaxfr/scripts/syniverse_files.sh"]
