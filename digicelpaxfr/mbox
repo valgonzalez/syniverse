@@ -1,0 +1,600 @@
+From digicelpaxfr@panadmunix000.digicelgroup.local  Sat Jun 23 00:00:04 2012
+Return-Path: <digicelpaxfr@panadmunix000.digicelgroup.local>
+Received: from panadmunix000.digicelgroup.local (localhost.localdomain [127.0.0.1])
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) with ESMTP id q5N504f2015523
+	for <digicelpaxfr@panadmunix000.digicelgroup.local>; Sat, 23 Jun 2012 00:00:04 -0500
+Received: (from digicelpaxfr@localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8/Submit) id q5N5017g015513;
+	Sat, 23 Jun 2012 00:00:01 -0500
+Date: Sat, 23 Jun 2012 00:00:01 -0500
+Message-Id: <201206230500.q5N5017g015513@panadmunix000.digicelgroup.local>
+From: root@panadmunix000.digicelgroup.local (Cron Daemon)
+To: digicelpaxfr@panadmunix000.digicelgroup.local
+Subject: Cron <digicelpaxfr@panadmunix000> /home/digicelpaxfr/scripts/ftp_script.sh && /home/digicelpaxfr/scripts/scp_script.sh |mailx -s "Syniverse File Sent" edey.williams@digicelgroup.com,pan_it_operaciones@digicelgroup.com
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/digicelpaxfr>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=digicelpaxfr>
+X-Cron-Env: <USER=digicelpaxfr>
+Status: RO
+
+Connected to panwfprdapp000 (172.27.65.70).
+220 Microsoft FTP Service
+331 Anonymous access allowed, send identity (e-mail name) as password.
+230 Anonymous user logged in.
+250 CWD command successful.
+Local directory now /home/digicelpaxfr/PARA_ENVIAR
+local: Terminated20120622.csv remote: Terminated20120622.csv
+227 Entering Passive Mode (172,27,65,70,6,127).
+125 Data connection already open; Transfer starting.
+226 Transfer complete.
+104 bytes received in 0.000231 secs (4.4e+02 Kbytes/sec)
+local: Ported20120622.csv remote: Ported20120622.csv
+227 Entering Passive Mode (172,27,65,70,6,128).
+125 Data connection already open; Transfer starting.
+226 Transfer complete.
+20351 bytes received in 0.00396 secs (5e+03 Kbytes/sec)
+221  
+
+From MAILER-DAEMON@panadmunix000.digicelgroup.local  Sat Jun 23 00:00:25 2012
+Return-Path: <MAILER-DAEMON@panadmunix000.digicelgroup.local>
+Received: from localhost (localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) id q5N50PkC015522;
+	Sat, 23 Jun 2012 00:00:25 -0500
+Date: Sat, 23 Jun 2012 00:00:25 -0500
+From: Mail Delivery Subsystem <MAILER-DAEMON@panadmunix000.digicelgroup.local>
+Message-Id: <201206230500.q5N50PkC015522@panadmunix000.digicelgroup.local>
+To: <digicelpaxfr@panadmunix000.digicelgroup.local>
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="q5N50PkC015522.1340427625/panadmunix000.digicelgroup.local"
+Subject: Returned mail: see transcript for details
+Auto-Submitted: auto-generated (failure)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--q5N50PkC015522.1340427625/panadmunix000.digicelgroup.local
+
+The original message was received at Sat, 23 Jun 2012 00:00:04 -0500
+from localhost.localdomain [127.0.0.1]
+
+   ----- The following addresses had permanent fatal errors -----
+<edey.williams@digicelgroup.com>
+    (reason: 550 5.7.1 :127.0.0.3:Client host 190.102.60.18 blocked using 88.blocklist.zap; Mail from IP banned. ...quest removal from this list please forward this message to delist.forefront@messaging.microsoft.com)
+<pan_it_operaciones@digicelgroup.com>
+    (reason: 550 5.7.1 :127.0.0.3:Client host 190.102.60.18 blocked using 88.blocklist.zap; Mail from IP banned. ...quest removal from this list please forward this message to delist.forefront@messaging.microsoft.com)
+
+   ----- Transcript of session follows -----
+... while talking to mailrouter5.digicelgroup.com.:
+>>> DATA
+<<< 550 5.7.1 :127.0.0.3:Client host 190.102.60.18 blocked using 88.blocklist.zap; Mail from IP banned. To request removal from this list please forward this message to delist.forefront@messaging.microsoft.com
+550 5.1.1 <pan_it_operaciones@digicelgroup.com>... User unknown
+<<< 550 5.7.1 :127.0.0.3:Client host 190.102.60.18 blocked using 88.blocklist.zap; Mail from IP banned. To request removal from this list please forward this message to delist.forefront@messaging.microsoft.com
+550 5.1.1 <edey.williams@digicelgroup.com>... User unknown
+<<< 503 5.5.2 Need rcpt command
+
+--q5N50PkC015522.1340427625/panadmunix000.digicelgroup.local
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; panadmunix000.digicelgroup.local
+Received-From-MTA: DNS; localhost.localdomain
+Arrival-Date: Sat, 23 Jun 2012 00:00:04 -0500
+
+Final-Recipient: RFC822; edey.williams@digicelgroup.com
+Action: failed
+Status: 5.7.1
+Remote-MTA: DNS; mailrouter5.digicelgroup.com
+Diagnostic-Code: SMTP; 550 5.7.1 :127.0.0.3:Client host 190.102.60.18 blocked using 88.blocklist.zap; Mail from IP banned. To request removal from this list please forward this message to delist.forefront@messaging.microsoft.com
+Last-Attempt-Date: Sat, 23 Jun 2012 00:00:14 -0500
+
+Final-Recipient: RFC822; pan_it_operaciones@digicelgroup.com
+Action: failed
+Status: 5.7.1
+Remote-MTA: DNS; mailrouter5.digicelgroup.com
+Diagnostic-Code: SMTP; 550 5.7.1 :127.0.0.3:Client host 190.102.60.18 blocked using 88.blocklist.zap; Mail from IP banned. To request removal from this list please forward this message to delist.forefront@messaging.microsoft.com
+Last-Attempt-Date: Sat, 23 Jun 2012 00:00:09 -0500
+
+--q5N50PkC015522.1340427625/panadmunix000.digicelgroup.local
+Content-Type: message/rfc822
+
+Return-Path: <digicelpaxfr@panadmunix000.digicelgroup.local>
+Received: from panadmunix000.digicelgroup.local (localhost.localdomain [127.0.0.1])
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) with ESMTP id q5N504kC015520;
+	Sat, 23 Jun 2012 00:00:04 -0500
+Received: (from digicelpaxfr@localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8/Submit) id q5N5032F015519;
+	Sat, 23 Jun 2012 00:00:03 -0500
+Date: Sat, 23 Jun 2012 00:00:03 -0500
+From: Syniver SFTP User <digicelpaxfr@panadmunix000.digicelgroup.local>
+Message-Id: <201206230500.q5N5032F015519@panadmunix000.digicelgroup.local>
+To: edey.williams@digicelgroup.com, pan_it_operaciones@digicelgroup.com
+Subject: Syniverse File Sent
+
+sftp> lcd /home/digicelpaxfr/PARA_ENVIAR/
+sftp> cd upload
+sftp> mput *
+Uploading Ported20120622.csv to /upload/Ported20120622.csv
+Uploading Terminated20120622.csv to /upload/Terminated20120622.csv
+sftp> exit
+
+--q5N50PkC015522.1340427625/panadmunix000.digicelgroup.local--
+
+From digicelpaxfr@panadmunix000.digicelgroup.local  Sun Jun 24 00:00:04 2012
+Return-Path: <digicelpaxfr@panadmunix000.digicelgroup.local>
+Received: from panadmunix000.digicelgroup.local (localhost.localdomain [127.0.0.1])
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) with ESMTP id q5O504P3014234
+	for <digicelpaxfr@panadmunix000.digicelgroup.local>; Sun, 24 Jun 2012 00:00:04 -0500
+Received: (from digicelpaxfr@localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8/Submit) id q5O501an014225;
+	Sun, 24 Jun 2012 00:00:01 -0500
+Date: Sun, 24 Jun 2012 00:00:01 -0500
+Message-Id: <201206240500.q5O501an014225@panadmunix000.digicelgroup.local>
+From: root@panadmunix000.digicelgroup.local (Cron Daemon)
+To: digicelpaxfr@panadmunix000.digicelgroup.local
+Subject: Cron <digicelpaxfr@panadmunix000> /home/digicelpaxfr/scripts/ftp_script.sh && /home/digicelpaxfr/scripts/scp_script.sh |mailx -s "Syniverse File Sent" edey.williams@digicelgroup.com,pan_it_operaciones@digicelgroup.com
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/digicelpaxfr>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=digicelpaxfr>
+X-Cron-Env: <USER=digicelpaxfr>
+Status: RO
+
+Connected to panwfprdapp000 (172.27.65.70).
+220 Microsoft FTP Service
+331 Anonymous access allowed, send identity (e-mail name) as password.
+230 Anonymous user logged in.
+250 CWD command successful.
+Local directory now /home/digicelpaxfr/PARA_ENVIAR
+local: Terminated20120623.csv remote: Terminated20120623.csv
+227 Entering Passive Mode (172,27,65,70,8,57).
+550 Terminated20120623.csv: The system cannot find the file specified. 
+local: Ported20120623.csv remote: Ported20120623.csv
+227 Entering Passive Mode (172,27,65,70,8,58).
+550 Ported20120623.csv: The system cannot find the file specified. 
+221  
+File "*" not found.
+
+From digicelpaxfr@panadmunix000.digicelgroup.local  Sun Jul  1 00:00:07 2012
+Return-Path: <digicelpaxfr@panadmunix000.digicelgroup.local>
+Received: from panadmunix000.digicelgroup.local (localhost.localdomain [127.0.0.1])
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) with ESMTP id q61506Ev018391
+	for <digicelpaxfr@panadmunix000.digicelgroup.local>; Sun, 1 Jul 2012 00:00:06 -0500
+Received: (from digicelpaxfr@localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8/Submit) id q61504jg018386;
+	Sun, 1 Jul 2012 00:00:04 -0500
+Date: Sun, 1 Jul 2012 00:00:04 -0500
+Message-Id: <201207010500.q61504jg018386@panadmunix000.digicelgroup.local>
+From: root@panadmunix000.digicelgroup.local (Cron Daemon)
+To: digicelpaxfr@panadmunix000.digicelgroup.local
+Subject: Cron <digicelpaxfr@panadmunix000> ( /home/digicelpaxfr/scripts/ftp_script.sh && /home/digicelpaxfr/scripts/scp_script.sh || echo No files to send!) |mailx -s "Syniverse File Sent" edey.williams@digicelgroup
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/digicelpaxfr>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=digicelpaxfr>
+X-Cron-Env: <USER=digicelpaxfr>
+Status: RO
+
+File "*" not found.
+
+From digicelpaxfr@panadmunix000.digicelgroup.local  Mon Jul  2 00:00:08 2012
+Return-Path: <digicelpaxfr@panadmunix000.digicelgroup.local>
+Received: from panadmunix000.digicelgroup.local (localhost.localdomain [127.0.0.1])
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) with ESMTP id q62508KI005361
+	for <digicelpaxfr@panadmunix000.digicelgroup.local>; Mon, 2 Jul 2012 00:00:08 -0500
+Received: (from digicelpaxfr@localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8/Submit) id q62503Ud005341;
+	Mon, 2 Jul 2012 00:00:03 -0500
+Date: Mon, 2 Jul 2012 00:00:03 -0500
+Message-Id: <201207020500.q62503Ud005341@panadmunix000.digicelgroup.local>
+From: root@panadmunix000.digicelgroup.local (Cron Daemon)
+To: digicelpaxfr@panadmunix000.digicelgroup.local
+Subject: Cron <digicelpaxfr@panadmunix000> ( /home/digicelpaxfr/scripts/ftp_script.sh && /home/digicelpaxfr/scripts/scp_script.sh || echo No files to send!) |mailx -s "Syniverse File Sent" edey.williams@digicelgroup
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/digicelpaxfr>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=digicelpaxfr>
+X-Cron-Env: <USER=digicelpaxfr>
+Status: RO
+
+File "*" not found.
+
+From digicelpaxfr@panadmunix000.digicelgroup.local  Sun Jul  8 00:00:04 2012
+Return-Path: <digicelpaxfr@panadmunix000.digicelgroup.local>
+Received: from panadmunix000.digicelgroup.local (localhost.localdomain [127.0.0.1])
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) with ESMTP id q68503Le015102
+	for <digicelpaxfr@panadmunix000.digicelgroup.local>; Sun, 8 Jul 2012 00:00:03 -0500
+Received: (from digicelpaxfr@localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8/Submit) id q68503bR015097;
+	Sun, 8 Jul 2012 00:00:03 -0500
+Date: Sun, 8 Jul 2012 00:00:03 -0500
+Message-Id: <201207080500.q68503bR015097@panadmunix000.digicelgroup.local>
+From: root@panadmunix000.digicelgroup.local (Cron Daemon)
+To: digicelpaxfr@panadmunix000.digicelgroup.local
+Subject: Cron <digicelpaxfr@panadmunix000> ( /home/digicelpaxfr/scripts/ftp_script.sh && /home/digicelpaxfr/scripts/scp_script.sh || echo No files to send!) |mailx -s "Syniverse File Sent" edey.williams@digicelgroup
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/digicelpaxfr>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=digicelpaxfr>
+X-Cron-Env: <USER=digicelpaxfr>
+Status: RO
+
+File "*" not found.
+
+From digicelpaxfr@panadmunix000.digicelgroup.local  Mon Jul  9 00:00:04 2012
+Return-Path: <digicelpaxfr@panadmunix000.digicelgroup.local>
+Received: from panadmunix000.digicelgroup.local (localhost.localdomain [127.0.0.1])
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) with ESMTP id q695040n001980
+	for <digicelpaxfr@panadmunix000.digicelgroup.local>; Mon, 9 Jul 2012 00:00:04 -0500
+Received: (from digicelpaxfr@localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8/Submit) id q69503BO001975;
+	Mon, 9 Jul 2012 00:00:03 -0500
+Date: Mon, 9 Jul 2012 00:00:03 -0500
+Message-Id: <201207090500.q69503BO001975@panadmunix000.digicelgroup.local>
+From: root@panadmunix000.digicelgroup.local (Cron Daemon)
+To: digicelpaxfr@panadmunix000.digicelgroup.local
+Subject: Cron <digicelpaxfr@panadmunix000> ( /home/digicelpaxfr/scripts/ftp_script.sh && /home/digicelpaxfr/scripts/scp_script.sh || echo No files to send!) |mailx -s "Syniverse File Sent" edey.williams@digicelgroup
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/digicelpaxfr>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=digicelpaxfr>
+X-Cron-Env: <USER=digicelpaxfr>
+Status: RO
+
+File "*" not found.
+
+From digicelpaxfr@panadmunix000.digicelgroup.local  Sun Jul 15 00:00:04 2012
+Return-Path: <digicelpaxfr@panadmunix000.digicelgroup.local>
+Received: from panadmunix000.digicelgroup.local (localhost.localdomain [127.0.0.1])
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) with ESMTP id q6F504JF006238
+	for <digicelpaxfr@panadmunix000.digicelgroup.local>; Sun, 15 Jul 2012 00:00:04 -0500
+Received: (from digicelpaxfr@localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8/Submit) id q6F503cV006233;
+	Sun, 15 Jul 2012 00:00:03 -0500
+Date: Sun, 15 Jul 2012 00:00:03 -0500
+Message-Id: <201207150500.q6F503cV006233@panadmunix000.digicelgroup.local>
+From: root@panadmunix000.digicelgroup.local (Cron Daemon)
+To: digicelpaxfr@panadmunix000.digicelgroup.local
+Subject: Cron <digicelpaxfr@panadmunix000> ( /home/digicelpaxfr/scripts/ftp_script.sh && /home/digicelpaxfr/scripts/scp_script.sh || echo No files to send!) |mailx -s "Syniverse File Sent" edey.williams@digicelgroup
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/digicelpaxfr>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=digicelpaxfr>
+X-Cron-Env: <USER=digicelpaxfr>
+Status: RO
+
+File "*" not found.
+
+From digicelpaxfr@panadmunix000.digicelgroup.local  Mon Jul 16 00:00:04 2012
+Return-Path: <digicelpaxfr@panadmunix000.digicelgroup.local>
+Received: from panadmunix000.digicelgroup.local (localhost.localdomain [127.0.0.1])
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) with ESMTP id q6G504Jd025543
+	for <digicelpaxfr@panadmunix000.digicelgroup.local>; Mon, 16 Jul 2012 00:00:04 -0500
+Received: (from digicelpaxfr@localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8/Submit) id q6G504rX025538;
+	Mon, 16 Jul 2012 00:00:04 -0500
+Date: Mon, 16 Jul 2012 00:00:04 -0500
+Message-Id: <201207160500.q6G504rX025538@panadmunix000.digicelgroup.local>
+From: root@panadmunix000.digicelgroup.local (Cron Daemon)
+To: digicelpaxfr@panadmunix000.digicelgroup.local
+Subject: Cron <digicelpaxfr@panadmunix000> ( /home/digicelpaxfr/scripts/ftp_script.sh && /home/digicelpaxfr/scripts/scp_script.sh || echo No files to send!) |mailx -s "Syniverse File Sent" edey.williams@digicelgroup
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/digicelpaxfr>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=digicelpaxfr>
+X-Cron-Env: <USER=digicelpaxfr>
+Status: RO
+
+File "*" not found.
+
+From digicelpaxfr@panadmunix000.digicelgroup.local  Sun Jul 22 00:00:04 2012
+Return-Path: <digicelpaxfr@panadmunix000.digicelgroup.local>
+Received: from panadmunix000.digicelgroup.local (localhost.localdomain [127.0.0.1])
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) with ESMTP id q6M504JX006652
+	for <digicelpaxfr@panadmunix000.digicelgroup.local>; Sun, 22 Jul 2012 00:00:04 -0500
+Received: (from digicelpaxfr@localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8/Submit) id q6M5035Z006647;
+	Sun, 22 Jul 2012 00:00:03 -0500
+Date: Sun, 22 Jul 2012 00:00:03 -0500
+Message-Id: <201207220500.q6M5035Z006647@panadmunix000.digicelgroup.local>
+From: root@panadmunix000.digicelgroup.local (Cron Daemon)
+To: digicelpaxfr@panadmunix000.digicelgroup.local
+Subject: Cron <digicelpaxfr@panadmunix000> ( /home/digicelpaxfr/scripts/ftp_script.sh && /home/digicelpaxfr/scripts/scp_script.sh || echo No files to send!) |mailx -s "Syniverse File Sent" edey.williams@digicelgroup
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/digicelpaxfr>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=digicelpaxfr>
+X-Cron-Env: <USER=digicelpaxfr>
+Status: RO
+
+File "*" not found.
+
+From digicelpaxfr@panadmunix000.digicelgroup.local  Mon Jul 23 00:00:04 2012
+Return-Path: <digicelpaxfr@panadmunix000.digicelgroup.local>
+Received: from panadmunix000.digicelgroup.local (localhost.localdomain [127.0.0.1])
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) with ESMTP id q6N5031K025736
+	for <digicelpaxfr@panadmunix000.digicelgroup.local>; Mon, 23 Jul 2012 00:00:04 -0500
+Received: (from digicelpaxfr@localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8/Submit) id q6N503w5025731;
+	Mon, 23 Jul 2012 00:00:03 -0500
+Date: Mon, 23 Jul 2012 00:00:03 -0500
+Message-Id: <201207230500.q6N503w5025731@panadmunix000.digicelgroup.local>
+From: root@panadmunix000.digicelgroup.local (Cron Daemon)
+To: digicelpaxfr@panadmunix000.digicelgroup.local
+Subject: Cron <digicelpaxfr@panadmunix000> ( /home/digicelpaxfr/scripts/ftp_script.sh && /home/digicelpaxfr/scripts/scp_script.sh || echo No files to send!) |mailx -s "Syniverse File Sent" edey.williams@digicelgroup
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/digicelpaxfr>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=digicelpaxfr>
+X-Cron-Env: <USER=digicelpaxfr>
+Status: RO
+
+File "*" not found.
+
+From digicelpaxfr@panadmunix000.digicelgroup.local  Sun Jul 29 00:00:07 2012
+Return-Path: <digicelpaxfr@panadmunix000.digicelgroup.local>
+Received: from panadmunix000.digicelgroup.local (localhost.localdomain [127.0.0.1])
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) with ESMTP id q6T506iV030288
+	for <digicelpaxfr@panadmunix000.digicelgroup.local>; Sun, 29 Jul 2012 00:00:06 -0500
+Received: (from digicelpaxfr@localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8/Submit) id q6T504cg030283;
+	Sun, 29 Jul 2012 00:00:04 -0500
+Date: Sun, 29 Jul 2012 00:00:04 -0500
+Message-Id: <201207290500.q6T504cg030283@panadmunix000.digicelgroup.local>
+From: root@panadmunix000.digicelgroup.local (Cron Daemon)
+To: digicelpaxfr@panadmunix000.digicelgroup.local
+Subject: Cron <digicelpaxfr@panadmunix000> ( /home/digicelpaxfr/scripts/ftp_script.sh && /home/digicelpaxfr/scripts/scp_script.sh || echo No files to send!) |mailx -s "Syniverse File Sent" edey.williams@digicelgroup
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/digicelpaxfr>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=digicelpaxfr>
+X-Cron-Env: <USER=digicelpaxfr>
+Status: RO
+
+File "*" not found.
+
+From digicelpaxfr@panadmunix000.digicelgroup.local  Mon Jul 30 00:00:05 2012
+Return-Path: <digicelpaxfr@panadmunix000.digicelgroup.local>
+Received: from panadmunix000.digicelgroup.local (localhost.localdomain [127.0.0.1])
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) with ESMTP id q6U504Gs017237
+	for <digicelpaxfr@panadmunix000.digicelgroup.local>; Mon, 30 Jul 2012 00:00:05 -0500
+Received: (from digicelpaxfr@localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8/Submit) id q6U50464017232;
+	Mon, 30 Jul 2012 00:00:04 -0500
+Date: Mon, 30 Jul 2012 00:00:04 -0500
+Message-Id: <201207300500.q6U50464017232@panadmunix000.digicelgroup.local>
+From: root@panadmunix000.digicelgroup.local (Cron Daemon)
+To: digicelpaxfr@panadmunix000.digicelgroup.local
+Subject: Cron <digicelpaxfr@panadmunix000> ( /home/digicelpaxfr/scripts/ftp_script.sh && /home/digicelpaxfr/scripts/scp_script.sh || echo No files to send!) |mailx -s "Syniverse File Sent" edey.williams@digicelgroup
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/digicelpaxfr>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=digicelpaxfr>
+X-Cron-Env: <USER=digicelpaxfr>
+Status: RO
+
+File "*" not found.
+
+From MAILER-DAEMON@panadmunix000.digicelgroup.local  Sun Jun 24 00:00:25 2012
+Return-Path: <MAILER-DAEMON@panadmunix000.digicelgroup.local>
+Received: from localhost (localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) id q5O50Ppt014233;
+	Sun, 24 Jun 2012 00:00:25 -0500
+Date: Sun, 24 Jun 2012 00:00:25 -0500
+From: Mail Delivery Subsystem <MAILER-DAEMON@panadmunix000.digicelgroup.local>
+Message-Id: <201206240500.q5O50Ppt014233@panadmunix000.digicelgroup.local>
+To: <digicelpaxfr@panadmunix000.digicelgroup.local>
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="q5O50Ppt014233.1340514025/panadmunix000.digicelgroup.local"
+Subject: Returned mail: see transcript for details
+Auto-Submitted: auto-generated (failure)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--q5O50Ppt014233.1340514025/panadmunix000.digicelgroup.local
+
+The original message was received at Sun, 24 Jun 2012 00:00:03 -0500
+from localhost.localdomain [127.0.0.1]
+
+   ----- The following addresses had permanent fatal errors -----
+<edey.williams@digicelgroup.com>
+    (reason: 550 5.7.1 :127.0.0.3:Client host 190.102.60.18 blocked using 88.blocklist.zap; Mail from IP banned. ...quest removal from this list please forward this message to delist.forefront@messaging.microsoft.com)
+<pan_it_operaciones@digicelgroup.com>
+    (reason: 550 5.7.1 :127.0.0.3:Client host 190.102.60.18 blocked using 88.blocklist.zap; Mail from IP banned. ...quest removal from this list please forward this message to delist.forefront@messaging.microsoft.com)
+
+   ----- Transcript of session follows -----
+... while talking to mailrouter5.digicelgroup.com.:
+>>> DATA
+<<< 550 5.7.1 :127.0.0.3:Client host 190.102.60.18 blocked using 88.blocklist.zap; Mail from IP banned. To request removal from this list please forward this message to delist.forefront@messaging.microsoft.com
+550 5.1.1 <pan_it_operaciones@digicelgroup.com>... User unknown
+<<< 550 5.7.1 :127.0.0.3:Client host 190.102.60.18 blocked using 88.blocklist.zap; Mail from IP banned. To request removal from this list please forward this message to delist.forefront@messaging.microsoft.com
+550 5.1.1 <edey.williams@digicelgroup.com>... User unknown
+<<< 503 5.5.2 Need rcpt command
+
+--q5O50Ppt014233.1340514025/panadmunix000.digicelgroup.local
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; panadmunix000.digicelgroup.local
+Received-From-MTA: DNS; localhost.localdomain
+Arrival-Date: Sun, 24 Jun 2012 00:00:03 -0500
+
+Final-Recipient: RFC822; edey.williams@digicelgroup.com
+Action: failed
+Status: 5.7.1
+Remote-MTA: DNS; mailrouter5.digicelgroup.com
+Diagnostic-Code: SMTP; 550 5.7.1 :127.0.0.3:Client host 190.102.60.18 blocked using 88.blocklist.zap; Mail from IP banned. To request removal from this list please forward this message to delist.forefront@messaging.microsoft.com
+Last-Attempt-Date: Sun, 24 Jun 2012 00:00:15 -0500
+
+Final-Recipient: RFC822; pan_it_operaciones@digicelgroup.com
+Action: failed
+Status: 5.7.1
+Remote-MTA: DNS; mailrouter5.digicelgroup.com
+Diagnostic-Code: SMTP; 550 5.7.1 :127.0.0.3:Client host 190.102.60.18 blocked using 88.blocklist.zap; Mail from IP banned. To request removal from this list please forward this message to delist.forefront@messaging.microsoft.com
+Last-Attempt-Date: Sun, 24 Jun 2012 00:00:10 -0500
+
+--q5O50Ppt014233.1340514025/panadmunix000.digicelgroup.local
+Content-Type: message/rfc822
+
+Return-Path: <digicelpaxfr@panadmunix000.digicelgroup.local>
+Received: from panadmunix000.digicelgroup.local (localhost.localdomain [127.0.0.1])
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) with ESMTP id q5O503pt014231;
+	Sun, 24 Jun 2012 00:00:03 -0500
+Received: (from digicelpaxfr@localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8/Submit) id q5O503MJ014230;
+	Sun, 24 Jun 2012 00:00:03 -0500
+Date: Sun, 24 Jun 2012 00:00:03 -0500
+From: Syniver SFTP User <digicelpaxfr@panadmunix000.digicelgroup.local>
+Message-Id: <201206240500.q5O503MJ014230@panadmunix000.digicelgroup.local>
+To: edey.williams@digicelgroup.com, pan_it_operaciones@digicelgroup.com
+Subject: Syniverse File Sent
+
+sftp> lcd /home/digicelpaxfr/PARA_ENVIAR/
+sftp> cd upload
+sftp> mput *
+
+--q5O50Ppt014233.1340514025/panadmunix000.digicelgroup.local--
+
+From digicelpaxfr@panadmunix000.digicelgroup.local  Mon Jun 25 00:00:03 2012
+Return-Path: <digicelpaxfr@panadmunix000.digicelgroup.local>
+Received: from panadmunix000.digicelgroup.local (localhost.localdomain [127.0.0.1])
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) with ESMTP id q5P503hT003403
+	for <digicelpaxfr@panadmunix000.digicelgroup.local>; Mon, 25 Jun 2012 00:00:03 -0500
+Received: (from digicelpaxfr@localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8/Submit) id q5P5011l003394;
+	Mon, 25 Jun 2012 00:00:01 -0500
+Date: Mon, 25 Jun 2012 00:00:01 -0500
+Message-Id: <201206250500.q5P5011l003394@panadmunix000.digicelgroup.local>
+From: root@panadmunix000.digicelgroup.local (Cron Daemon)
+To: digicelpaxfr@panadmunix000.digicelgroup.local
+Subject: Cron <digicelpaxfr@panadmunix000> /home/digicelpaxfr/scripts/ftp_script.sh && /home/digicelpaxfr/scripts/scp_script.sh |mailx -s "Syniverse File Sent" edey.williams@digicelgroup.com,pan_it_operaciones@digicelgroup.com
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/digicelpaxfr>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=digicelpaxfr>
+X-Cron-Env: <USER=digicelpaxfr>
+Status: RO
+
+Connected to panwfprdapp000 (172.27.65.70).
+220 Microsoft FTP Service
+331 Anonymous access allowed, send identity (e-mail name) as password.
+230 Anonymous user logged in.
+250 CWD command successful.
+Local directory now /home/digicelpaxfr/PARA_ENVIAR
+local: Terminated20120624.csv remote: Terminated20120624.csv
+227 Entering Passive Mode (172,27,65,70,4,243).
+550 Terminated20120624.csv: The system cannot find the file specified. 
+local: Ported20120624.csv remote: Ported20120624.csv
+227 Entering Passive Mode (172,27,65,70,4,244).
+550 Ported20120624.csv: The system cannot find the file specified. 
+221  
+File "*" not found.
+
+From MAILER-DAEMON@panadmunix000.digicelgroup.local  Mon Jun 25 00:00:24 2012
+Return-Path: <MAILER-DAEMON@panadmunix000.digicelgroup.local>
+Received: from localhost (localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) id q5P50OLq003402;
+	Mon, 25 Jun 2012 00:00:24 -0500
+Date: Mon, 25 Jun 2012 00:00:24 -0500
+From: Mail Delivery Subsystem <MAILER-DAEMON@panadmunix000.digicelgroup.local>
+Message-Id: <201206250500.q5P50OLq003402@panadmunix000.digicelgroup.local>
+To: <digicelpaxfr@panadmunix000.digicelgroup.local>
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="q5P50OLq003402.1340600424/panadmunix000.digicelgroup.local"
+Subject: Returned mail: see transcript for details
+Auto-Submitted: auto-generated (failure)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--q5P50OLq003402.1340600424/panadmunix000.digicelgroup.local
+
+The original message was received at Mon, 25 Jun 2012 00:00:03 -0500
+from localhost.localdomain [127.0.0.1]
+
+   ----- The following addresses had permanent fatal errors -----
+<edey.williams@digicelgroup.com>
+    (reason: 550 5.7.1 :127.0.0.3:Client host 190.102.60.18 blocked using 88.blocklist.zap; Mail from IP banned. ...quest removal from this list please forward this message to delist.forefront@messaging.microsoft.com)
+<pan_it_operaciones@digicelgroup.com>
+    (reason: 550 5.7.1 :127.0.0.3:Client host 190.102.60.18 blocked using 88.blocklist.zap; Mail from IP banned. ...quest removal from this list please forward this message to delist.forefront@messaging.microsoft.com)
+
+   ----- Transcript of session follows -----
+... while talking to mailrouter5.digicelgroup.com.:
+>>> DATA
+<<< 550 5.7.1 :127.0.0.3:Client host 190.102.60.18 blocked using 88.blocklist.zap; Mail from IP banned. To request removal from this list please forward this message to delist.forefront@messaging.microsoft.com
+550 5.1.1 <pan_it_operaciones@digicelgroup.com>... User unknown
+<<< 550 5.7.1 :127.0.0.3:Client host 190.102.60.18 blocked using 88.blocklist.zap; Mail from IP banned. To request removal from this list please forward this message to delist.forefront@messaging.microsoft.com
+550 5.1.1 <edey.williams@digicelgroup.com>... User unknown
+<<< 503 5.5.2 Need rcpt command
+
+--q5P50OLq003402.1340600424/panadmunix000.digicelgroup.local
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; panadmunix000.digicelgroup.local
+Received-From-MTA: DNS; localhost.localdomain
+Arrival-Date: Mon, 25 Jun 2012 00:00:03 -0500
+
+Final-Recipient: RFC822; edey.williams@digicelgroup.com
+Action: failed
+Status: 5.7.1
+Remote-MTA: DNS; mailrouter5.digicelgroup.com
+Diagnostic-Code: SMTP; 550 5.7.1 :127.0.0.3:Client host 190.102.60.18 blocked using 88.blocklist.zap; Mail from IP banned. To request removal from this list please forward this message to delist.forefront@messaging.microsoft.com
+Last-Attempt-Date: Mon, 25 Jun 2012 00:00:14 -0500
+
+Final-Recipient: RFC822; pan_it_operaciones@digicelgroup.com
+Action: failed
+Status: 5.7.1
+Remote-MTA: DNS; mailrouter5.digicelgroup.com
+Diagnostic-Code: SMTP; 550 5.7.1 :127.0.0.3:Client host 190.102.60.18 blocked using 88.blocklist.zap; Mail from IP banned. To request removal from this list please forward this message to delist.forefront@messaging.microsoft.com
+Last-Attempt-Date: Mon, 25 Jun 2012 00:00:09 -0500
+
+--q5P50OLq003402.1340600424/panadmunix000.digicelgroup.local
+Content-Type: message/rfc822
+
+Return-Path: <digicelpaxfr@panadmunix000.digicelgroup.local>
+Received: from panadmunix000.digicelgroup.local (localhost.localdomain [127.0.0.1])
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8) with ESMTP id q5P503Lq003400;
+	Mon, 25 Jun 2012 00:00:03 -0500
+Received: (from digicelpaxfr@localhost)
+	by panadmunix000.digicelgroup.local (8.13.8/8.13.8/Submit) id q5P503Y8003399;
+	Mon, 25 Jun 2012 00:00:03 -0500
+Date: Mon, 25 Jun 2012 00:00:03 -0500
+From: Syniver SFTP User <digicelpaxfr@panadmunix000.digicelgroup.local>
+Message-Id: <201206250500.q5P503Y8003399@panadmunix000.digicelgroup.local>
+To: edey.williams@digicelgroup.com, pan_it_operaciones@digicelgroup.com
+Subject: Syniverse File Sent
+
+sftp> lcd /home/digicelpaxfr/PARA_ENVIAR/
+sftp> cd upload
+sftp> mput *
+
+--q5P50OLq003402.1340600424/panadmunix000.digicelgroup.local--
+

@@ -1,0 +1,26 @@
+
+Tue Jun 22 08:00:01 EST 2021
+
+/home/digicelpaxfr/scripts/ftp_script.sh: line 40: warning: here-document at line 25 delimited by end-of-file (wanted `EOF')
+Connected to 172.27.71.137 (172.27.71.137).
+220 Microsoft FTP Service
+Remote system type is Windows_NT.
+331 Password required
+230 User logged in.
+?Invalid command
+Local directory now /home/digicelpaxfr/PARA_ENVIAR
+local: Terminated20210621.csv remote: Terminated20210621.csv
+227 Entering Passive Mode (172,27,71,137,254,72).
+125 Data connection already open; Transfer starting.
+226 Transfer complete.
+18854 bytes received in 0.00176 secs (10706.42 Kbytes/sec)
+local: Ported20210621.csv remote: Ported20210621.csv
+227 Entering Passive Mode (172,27,71,137,254,73).
+125 Data connection already open; Transfer starting.
+226 Transfer complete.
+350492 bytes received in 0.023 secs (15267.33 Kbytes/sec)
+221 Goodbye.
+sftp> lcd /home/digicelpaxfr/PARA_ENVIAR/
+sftp> cd upload
+sftp> mput *
+sftp> exit

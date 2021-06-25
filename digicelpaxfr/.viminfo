@@ -1,0 +1,444 @@
+# Este fichero viminfo fue generado por Vim 7.0.
+# Usted puede editarlo, ¡solo si tiene cuidado!
+
+# Valor de «encoding» cuando se escribió este fichero
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~H
+# Last Search Pattern:
+~MSle0~/64.116
+
+# Last Substitute Search Pattern:
+~MSle0&\'
+
+# Última cadena de sustitución:
+$
+
+# Historia de «Línea de comandos» (de lo más nuevo a lo más antiguo):
+:wq!
+:w
+:q!
+:1
+:WQ!
+:19
+:20
+:wq!!
+:22
+:21
+:%s/\'/\"/g
+:%s/\"/\'/g
+:18
+:17
+
+# Historia de «Cadena de búsqueda» (de lo más nuevo a lo más antiguo):
+?/64.116
+?/exit
+?/^DS
+?/relay
+?/cf
+? ^\d\{3}ÿ
+?/home/digicelpaxfr/PARA_ENVIAR
+?/Getfiles
+? \'
+? \"
+
+# Historia de «Expresión» (de lo más nuevo a lo más antiguo):
+
+# Historia de «Línea de entrada» (de lo más nuevo a lo más antiguo):
+
+# Historia de «Línea de entrada» (de lo más nuevo a lo más antiguo):
+
+# Registros:
+"0	LINE	0
+	[ $excode -eq 1 ] && ( echo No files found | mailx -s "Syniverse File Sent" edey.williams@digicelgroup,Pan_Application_Team@digicelgroup.com )
+"1	LINE	0
+	
+"2	LINE	0
+	
+"3	LINE	0
+	mv /home/digicelpaxfr/PARA_ENVIAR/* /home/digicelpaxfr/ENVIADOS/
+"4	LINE	0
+	\
+"5	LINE	0
+	sftp -bsftp_commands digicelpaxfr@ftp.netnumber.com  &&\
+"6	LINE	0
+	
+"7	LINE	0
+	cd  /home/digicelpaxfr/scripts
+"8	LINE	0
+	
+"9	LINE	0
+	####/bin/bash
+""-	CHAR	0
+	#
+
+# Marcas en el fichero:
+'0  16  115  ~/scripts/syniverse_files.sh
+'1  199  85  ~/index.html
+'2  41  0  ~/scripts/ftp_script.sh
+'3  6  0  ~/scripts/syniverse_files.sh
+'4  7  0  ~/scripts/syniverse_files.sh
+'5  14  0  ~/scripts/syniverse_files.sh
+'6  11  37  ~/scripts/ftp_script.sh
+'7  11  0  ~/scripts/scp_script.sh
+'8  2  98  ~/scripts/to_send_files_sftp.sh
+'9  2  98  ~/scripts/scp_script.sh
+
+# Lista de saltos (el más reciente va primero):
+-'  16  115  ~/scripts/syniverse_files.sh
+-'  6  0  ~/scripts/syniverse_files.sh
+-'  199  85  ~/index.html
+-'  1  0  ~/index.html
+-'  41  0  ~/scripts/ftp_script.sh
+-'  11  0  ~/scripts/ftp_script.sh
+-'  7  0  ~/scripts/syniverse_files.sh
+-'  14  0  ~/scripts/syniverse_files.sh
+-'  2  0  ~/scripts/ftp_script.sh
+-'  11  0  ~/scripts/scp_script.sh
+-'  2  0  ~/scripts/scp_script.sh
+-'  19  0  ~/scripts/syniverse_files.sh
+-'  2  98  ~/scripts/to_send_files_sftp.sh
+-'  1  0  ~/scripts/to_send_files_sftp.sh
+-'  3  0  ~/scripts/scp_script.sh
+-'  20  0  ~/scripts/ftp_script.sh
+-'  38  0  ~/scripts/ftp_script.sh
+-'  2  29  ~/scripts/sftp_commands
+-'  9  0  ~/scripts/scp_script.sh
+-'  35  0  ~/scripts/ftp_script.sh
+-'  1  0  ~/scripts/syniverse_files.sh
+-'  1  10  ~/scripts/ftp_script.sh
+-'  33  0  ~/scripts/ftp_script.sh
+-'  31  0  ~/scripts/ftp_script.sh
+-'  23  0  ~/scripts/ftp_script.sh
+-'  101  1  /etc/mail/sendmail.cf
+-'  91  18  /etc/mail/sendmail.cf
+-'  100  10  /etc/mail/sendmail.cf
+-'  1760  1  /etc/mail/sendmail.cf
+-'  1742  3  /etc/mail/sendmail.cf
+-'  1693  35  /etc/mail/sendmail.cf
+-'  1618  21  /etc/mail/sendmail.cf
+-'  1465  23  /etc/mail/sendmail.cf
+-'  1368  21  /etc/mail/sendmail.cf
+-'  1246  50  /etc/mail/sendmail.cf
+-'  1112  7  /etc/mail/sendmail.cf
+-'  1099  13  /etc/mail/sendmail.cf
+-'  1095  11  /etc/mail/sendmail.cf
+-'  1071  34  /etc/mail/sendmail.cf
+-'  1047  6  /etc/mail/sendmail.cf
+-'  942  15  /etc/mail/sendmail.cf
+-'  934  34  /etc/mail/sendmail.cf
+-'  672  0  /etc/mail/sendmail.cf
+-'  30  12  /etc/mail/sendmail.cf
+-'  20  50  /etc/mail/sendmail.cf
+-'  1  0  /etc/mail/sendmail.cf
+-'  5  0  ~/scripts/sftp_commands
+-'  8  0  ~/scripts
+-'  1  0  ~/scripts
+-'  8  0  ~/scripts/scp_script.sh
+-'  1  0  ~/scripts/sftp_commands
+-'  12  0  ~/scripts/scp_script.sh
+-'  14  0  ~/scripts/scp_script.sh
+-'  1  0  ~/scripts/scp_script.sh
+-'  8  0  ~/scripts/ftp_script.sh
+-'  22  0  ~/scripts/ftp_script.sh
+-'  22  33  ~/scripts/ftp_perl.pl
+-'  10  0  ~/scripts/ftp_perl.pl
+-'  19  0  ~/scripts/ftp_perl.pl
+-'  1  0  ~/ftp_perl.pl
+-'  15  0  ~/scripts/ftp_perl.pl
+-'  25  0  ~/scripts/ftp_perl.pl
+-'  9  0  ~/scripts/ftp_script.sh
+-'  24  0  ~/scripts/ftp_script.sh
+-'  24  0  ~/scripts/ftp_perl.pl
+-'  11  0  ~/scripts/ftp_perl.pl
+-'  16  0  ~/scripts/ftp_perl.pl
+-'  1  0  ./scripts/ftp_perl.pl
+-'  18  0  ~/scripts/ftp_perl.pl
+-'  6  9  ~/scripts/ftp_perl.pl
+-'  9  0  ~/scripts/ftp_perl.pl
+-'  1  0  ~/scripts/ftp_perl.pl
+-'  29  0  ~/scripts/ftp_perl.pl
+-'  1  0  /etc/ssh/sshd_config
+-'  1  0  ~/.ssh/id_rsa.pub
+-'  1  0  ~/.ssh/id_rsa
+-'  1  0  ~/.ssh/id_rsa
+-'  1  0  ~/.ssh/id_rsa
+-'  1  0  ~/.ssh/id_rsa
+-'  1  0  ~/.ssh/id_rsa.pub
+-'  1  0  ~/.ssh/id_rsa
+-'  1  0  ~/.ssh/id_rsa
+-'  1  0  ~/.ssh/id_rsa
+-'  1  0  ~/.ssh/id_rsa
+-'  1  0  /etc/ssh/sshd_config
+-'  1  0  ~/.ssh/id_rsa.pub
+-'  1  0  ~/.ssh/id_rsa
+-'  1  0  ~/.ssh/id_rsa
+-'  1  0  ~/.ssh/id_rsa
+-'  1  0  ~/.ssh/id_rsa
+-'  1  0  ~/.ssh/id_rsa.pub
+-'  1  0  ~/.ssh/id_rsa
+-'  1  0  ~/.ssh/id_rsa
+-'  1  0  ~/.ssh/id_rsa
+-'  1  0  ~/.ssh/id_rsa
+-'  1  0  /etc/ssh/sshd_config
+-'  1  0  ~/.ssh/id_rsa.pub
+-'  1  0  ~/.ssh/id_rsa
+
+# Historia de las marcas en los ficheros (de la más reciente a la más antigua):
+
+> ~/scripts/syniverse_files.sh
+	"	16	115
+	^	16	116
+	.	16	79
+	+	2	66
+	+	15	40
+	+	2	1
+	+	3	1
+	+	6	0
+	+	15	0
+	+	19	143
+	+	7	76
+	+	19	141
+	+	19	1
+	+	18	10
+	+	7	0
+	+	8	0
+	+	14	77
+	+	16	78
+	+	17	0
+	+	8	0
+	+	9	51
+	+	11	0
+	+	9	14
+	+	21	90
+	+	7	0
+	+	13	7
+	+	8	0
+	+	16	8
+	+	11	56
+	+	9	50
+	+	7	0
+	+	8	0
+	+	14	82
+	+	16	79
+
+> ~/index.html
+	"	199	85
+
+> ~/scripts/ftp_script.sh
+	"	41	0
+	^	30	38
+	.	30	37
+	+	8	13
+	+	15	0
+	+	19	0
+	+	19	0
+	+	17	0
+	+	19	0
+	+	19	0
+	+	22	19
+	+	25	3
+	+	19	0
+	+	9	27
+	+	8	44
+	+	22	22
+	+	9	0
+	+	22	13
+	+	23	11
+	+	22	29
+	+	23	11
+	+	8	0
+	+	22	28
+	+	23	11
+	+	34	0
+	+	33	0
+	+	31	84
+	+	35	0
+	+	35	0
+	+	33	79
+	+	36	103
+	+	36	44
+	+	36	141
+	+	38	28
+	+	38	28
+	+	36	76
+	+	40	5
+	+	36	182
+	+	38	151
+	+	36	185
+	+	3	67
+	+	35	0
+	+	35	4
+	+	34	0
+	+	35	0
+	+	20	4
+	+	2	18
+	+	33	1
+	+	36	0
+	+	38	1
+	+	40	1
+	+	30	37
+
+> ~/scripts/scp_script.sh
+	"	11	0
+	^	11	0
+	.	10	44
+	+	6	0
+	+	8	39
+	+	12	12
+	+	13	0
+	+	3	0
+	+	6	22
+	+	12	63
+	+	8	51
+	+	6	30
+	+	8	55
+	+	9	0
+	+	3	8
+	+	2	18
+	+	5	0
+	+	4	20
+	+	8	50
+	+	9	0
+	+	10	44
+
+> ~/scripts/to_send_files_sftp.sh
+	"	2	98
+	^	2	99
+	.	2	18
+	+	2	18
+
+> ~/scripts/sftp_commands
+	"	2	29
+	^	2	30
+	.	2	28
+	+	2	0
+	+	1	35
+	+	2	0
+	+	2	0
+	+	5	3
+	+	2	28
+
+> /etc/mail/sendmail.cf
+	"	101	1
+	^	101	2
+
+> ~/scripts/ftp_perl.pl
+	"	22	33
+	^	22	34
+	.	22	33
+	+	24	0
+	+	24	30
+	+	24	25
+	+	24	36
+	+	9	45
+	+	11	30
+	+	24	36
+	+	24	20
+	+	11	26
+	+	6	0
+	+	9	33
+	+	9	43
+	+	6	24
+	+	7	15
+	+	8	20
+	+	11	28
+	+	11	28
+	+	11	76
+	+	16	0
+	+	22	0
+	+	24	0
+	+	24	0
+	+	25	0
+	+	24	0
+	+	24	0
+	+	24	25
+	+	24	33
+	+	24	38
+	+	24	26
+	+	24	39
+	+	11	0
+	+	16	0
+	+	15	0
+	+	16	0
+	+	12	0
+	+	11	0
+	+	12	15
+	+	24	17
+	+	24	39
+	+	24	19
+	+	24	40
+	+	24	18
+	+	24	24
+	+	24	0
+	+	24	0
+	+	24	38
+	+	22	44
+	+	24	0
+	+	24	0
+	+	24	32
+	+	18	0
+	+	22	43
+	+	24	27
+	+	24	23
+	+	22	34
+	+	24	8
+	+	24	10
+	+	24	15
+	+	22	25
+	+	22	66
+	+	22	0
+	+	22	33
+	+	22	59
+	+	22	96
+	+	24	14
+	+	22	31
+	+	22	82
+	+	22	0
+	+	22	48
+	+	24	0
+	+	22	43
+	+	22	48
+	+	22	28
+	+	22	42
+	+	22	0
+	+	22	38
+	+	24	0
+	+	22	37
+	+	19	37
+	+	20	45
+	+	22	36
+	+	19	38
+	+	20	43
+	+	9	16
+	+	11	16
+	+	6	10
+	+	11	0
+	+	9	12
+	+	20	32
+	+	22	35
+	+	19	44
+	+	22	24
+	+	9	16
+	+	10	29
+	+	22	32
+	+	20	0
+	+	22	24
+	+	10	29
+	+	21	46
+	+	22	33
+	y	19	0
+
+> ~/ftp_perl.pl
+	"	1	0
+
+> ./scripts/ftp_perl.pl
+	"	1	0
+
+> ~/.ssh/id_rsa.pub
+	"	1	0
+
+> ~/.ssh/id_rsa
+	"	1	0

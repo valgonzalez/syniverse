@@ -1,0 +1,14 @@
+#!/bin/bash
+export PATH=$PATH:/usr/NX/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/digicelpaxfr/bin
+
+# Optional Validation
+#[ $? -ne 0 ] && echo Script anterior fallido && exit 0
+cd  /home/digicelpaxfr/scripts
+
+sftp -bsftp_commands digicelpaxfr@ftp.netnumber.com
+
+# Mover files a ENVIADOS despues hacer sftp.
+
+mv /home/digicelpaxfr/PARA_ENVIAR/* /home/digicelpaxfr/ENVIADOS/
+
+

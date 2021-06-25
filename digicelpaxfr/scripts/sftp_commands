@@ -1,0 +1,4 @@
+lcd /home/digicelpaxfr/PARA_ENVIAR/
+cd upload
+mput *
+exit

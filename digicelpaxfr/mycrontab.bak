@@ -1,0 +1,4 @@
+# The line below send the ported nums to the ASEP, daily at midnight
+0 0 * * * ( /home/digicelpaxfr/scripts/ftp_script.sh && /home/digicelpaxfr/scripts/scp_script.sh || echo No files to send!) |mailx -s "Syniverse File Sent" edey.williams@digicelgroup
+# The line below send the ported nums to the ASEP, daily at midnight
+0 0 * * * ( /home/digicelpaxfr/scripts/ftp_script.sh && /home/digicelpaxfr/scripts/scp_script.sh || echo No files to send!) |mailx -s "Syniverse File Sent" edey.williams@digicelgroup
