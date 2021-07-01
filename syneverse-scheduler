@@ -1,0 +1,2 @@
+0 8 * * * /us/bin/sh /home/digicelpaxfr/scripts/entrada.sh
+

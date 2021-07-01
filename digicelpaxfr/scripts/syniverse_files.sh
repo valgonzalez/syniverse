@@ -11,7 +11,7 @@ cat /dev/null > /home/digicelpaxfr/scripts/scp.log
 
 (echo ;date;echo ) >> /home/digicelpaxfr/scripts/scp.log
 
-/home/digicelpaxfr/scripts/ftp_script.sh >> /home/digicelpaxfr/scripts/scp.log 2>>/home/digicelpaxfr/scripts/scp.log
+/home/digicelpaxfr/scripts/scp_script_local.sh >> /home/digicelpaxfr/scripts/scp.log 2>>/home/digicelpaxfr/scripts/scp.log
 
 /home/digicelpaxfr/scripts/scp_script.sh >> /home/digicelpaxfr/scripts/scp.log 2>>/home/digicelpaxfr/scripts/scp.log
 
