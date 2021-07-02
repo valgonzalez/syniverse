@@ -5,7 +5,7 @@ export PATH=$PATH:/usr/NX/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/ho
 
 daystr=`date -d "1 day ago" +"%Y%m%d"`
 
-sftp sftpuser@172.27.71.173
+sftp sftpuser@172.27.71.137
 
 lcd /home/digicelpaxfr/PARA_ENVIAR
 
