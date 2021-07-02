@@ -5,11 +5,6 @@ PATH=$PATH:/home/digicelpaxfr/scripts
 
 daystr=`date -d "1 day ago" +"%Y%m%d"`
 
-sftp sftpuser@172.27.71.137
-
-lcd /home/digicelpaxfr/PARA_ENVIAR
-
-get  Terminated$daystr.csv
-get  Ported$daystr.csv
+sftp -bsftp_commands_local sftpuser@172.27.71.137
 
 exit 0

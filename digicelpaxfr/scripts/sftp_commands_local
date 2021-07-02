@@ -1,0 +1,6 @@
+lcd /home/digicelpaxfr/PARA_ENVIAR
+
+get  Terminated$daystr.csv
+get  Ported$daystr.csv
+
+exit 0
