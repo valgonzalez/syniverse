@@ -1,9 +1,7 @@
 #!/bin/bash
-export PATH=$PATH:/usr/NX/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/digicelpaxfr/bin
-
+PATH=$PATH:/home/digicelpaxfr/scripts
 
 cd  /home/digicelpaxfr/scripts
-
 
 sftp -bsftp_commands digicelpaxfr@ftp.netnumber.com
 

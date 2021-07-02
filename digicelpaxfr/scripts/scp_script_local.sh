@@ -1,5 +1,5 @@
 #!/bin/bash
-export PATH=$PATH:/usr/NX/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/home/digicelpaxfr/bin
+PATH=$PATH:/home/digicelpaxfr/scripts
 
 # to get yesterday string use ---> date -d "1 day ago" +"%Y%m%d"
 
