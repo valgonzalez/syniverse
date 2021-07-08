@@ -1,2 +1,2 @@
-0 8 * * * /us/bin/sh /home/digicelpaxfr/scripts/entrada.sh
+0 8 * * * /bin/sh /home/digicelpaxfr/scripts/entrada.sh
 
