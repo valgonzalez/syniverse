@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: syneverse
+  labels:
+    app: syneverse
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: syneverse
+  template:
+    metadata:
+      labels:
+        app: syneverse
+    spec:
+      containers:
+      - name: syneverse
+        image: valgonzalez/syneverse
+        env: 
+             - name: TZ
+               value: America/Panama
