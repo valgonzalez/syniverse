@@ -20,3 +20,11 @@ spec:
         env: 
              - name: TZ
                value: America/Panama
+        volumeMounts: 
+        - name: tz-localtime
+          mountPath: /etc/localtime
+      volumes:
+      - name: tz-localtime
+        hostPath:
+          path: /usr/share/zoneinfo/America/Panama
+
